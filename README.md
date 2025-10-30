@@ -41,6 +41,8 @@ To achieve this, we researched and implemented various robotics and AI technique
 * Yolo-v11: [video](https://youtu.be/JAwOVxa2ZUE)
 * Object detection and gripping: [video](https://youtube.com/shorts/5fRmE0WF7jY)
 * Zig zag trajectory: [video](https://youtu.be/SWXLe86SoOQ)
+* Matlab simulation for robot arm: [video](https://youtu.be/U4f-FVTDqog)
+* Gripping and navigation: [video](https://youtu.be/RqK6kfQlSYY)
   
 ### Developers
 1. [Nguyen Tan Phat](https://github.com/Phat-sv)

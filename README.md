@@ -12,7 +12,7 @@ To achieve this, we researched and implemented various robotics and AI technique
 * Forward / Inverse Kinematics of Diffirential mobile robot, 4 DOF robot arm
 * Robot Dynamics modeling to calculate moment on robot arm
 * Extended Kalman Filter (EKF) for heading estimation (fusing from kinematic and yaw of IMU)
-* PI Velocity Controller
+* PI Velocity Controller using DS (Direct Synthesis) method
 * ROS 2 (Robot Operating System) for system integration
 * YOLOv11-nano for real-time object detection
 * **Devices**:

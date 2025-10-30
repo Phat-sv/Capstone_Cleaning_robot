@@ -4,20 +4,28 @@ Watch my robot here: https://www.youtube.com/watch?v=gQMT6rC0Xig
 ## Tables of content
 - [Technologies](#technologies)
 - [Features](#features)
-- [Usages](#Usages)
-- [Contributions](#contributions)
+- [Developers](#developers)
 
 ### Technologies
 In this thesis, we design a differential robot with a robotic arm mounted on top of the base. We focus on developing the design and control system for the robot arm with the ability to pick up and drop multiple types of objects (including milk cartons, crumpled paper, small carton boxes, cups, beer cans, and water bottles).
 To achieve this, we researched and implemented various robotics and AI techniques such as:
-* Forward / Inverse Kinematics
-* Robot Dynamics modeling
-* Extended Kalman Filter (EKF) for state estimation
+* Forward / Inverse Kinematics of Diffirential mobile robot, 4 DOF robot arm
+* Robot Dynamics modeling to calculate moment on robot arm
+* Extended Kalman Filter (EKF) for heading estimation (fusing from kinematic and yaw of IMU)
 * PI Velocity Controller
 * ROS 2 (Robot Operating System) for system integration
 * YOLOv11-nano for real-time object detection
-
-In addition, a navigation algorithm was developed so that the differential robot can autonomously follow a zigzag trajectory in a mapped environment. All modules — manipulation, navigation, and perception — are integrated to allow the robot to detect objects and perform cleaning tasks efficiently.
+* **Devices**:
+  * 2 JGB37-520 DC servo motor for mobile platform
+  * Hiwonder bus servo (1 HX-06L, 1 LX-225, 2 LX-15D and 1 MG90S) for robot arm and gripper
+  * Raspberry pi 5: running ROS2, EKF, processing image, and communicating with STM32 microcontrollers
+  * 1 STM32F103C8T6 bluepill: control DC servo motors and send data via UART for Raspberry to calculate odometry. [Code here](https://github.com/Phat-sv/DC_servo_motor_STM32)
+  * 1 STM32F103C8T6 bluepill: read data from VL53L1X sensor on mobile platform (identify distance to object), IMU BNO055 and send to Raspberry via UART
+  * 1 STM32L432KCU6 (nucleo): read data from VL53L1X sensor mounted on gripper and calculate object coordinates. Moving to object and pick up, after that, sending result to Raspberry
+  * AI Hailo-8L: running yolo-v11
+  * Lidar A1M8: mapping and navigate
+  * IMU BNO055: read yaw angle
+  * Raspberry camera module V3: object detection
 
 ### Features
 * Autonomous navigation using zigzag path planning
@@ -27,4 +35,9 @@ In addition, a navigation algorithm was developed so that the differential robot
 * PI-based velocity controller for wheel motion
 * State estimation using Extended Kalman Filter (EKF)
 * Fully integrated in ROS 2 (Humble)
+
+### Developers
+1. Nguyen Tan Phat
+2. Phung Hieu Cuong
+
 

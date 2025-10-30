@@ -16,4 +16,15 @@ To achieve this, we researched and implemented various robotics and AI technique
 * PI Velocity Controller
 * ROS 2 (Robot Operating System) for system integration
 * YOLOv11-nano for real-time object detection
+
 In addition, a navigation algorithm was developed so that the differential robot can autonomously follow a zigzag trajectory in a mapped environment. All modules — manipulation, navigation, and perception — are integrated to allow the robot to detect objects and perform cleaning tasks efficiently.
+
+### Features
+* Autonomous navigation using zigzag path planning
+* Real-time object detection with YOLOv11-nano
+* Capable of picking up and placing different types of waste (cartons, bottles, cans, paper, etc.)
+* Robotic arm with forward & inverse kinematics control
+* PI-based velocity controller for wheel motion
+* State estimation using Extended Kalman Filter (EKF)
+* Fully integrated in ROS 2 (Humble)
+

@@ -37,7 +37,7 @@ To achieve this, we researched and implemented various robotics and AI technique
 * Fully integrated in ROS 2 (Humble)
 
 ### Developers
-1. Nguyen Tan Phat
-2. Phung Hieu Cuong
+1. [Nguyen Tan Phat](https://github.com/Phat-sv)
+2. [Phung Hieu Cuong](https://github.com/phcfg12)
 
 

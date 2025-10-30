@@ -47,7 +47,7 @@ To achieve this, we researched and implemented various robotics and AI technique
 * Velocity response (PI algorithm): [picture](https://github.com/Phat-sv/Capstone_Cleaning_robot/blob/main/images/PID%20response.png)
   
 ### Developers
-1. [Nguyen Tan Phat](https://github.com/Phat-sv)
-2. [Phung Hieu Cuong](https://github.com/phcfg12)
+1. [Nguyen Tan Phat](https://github.com/Phat-sv) (response for STM32 programming and deploy algorithms (PID, EKF, kinematics))
+2. [Phung Hieu Cuong](https://github.com/phcfg12) (response for drawing PCB, config ROS2 and deploy YoloV1 nano on Hailo-8L)
 
 

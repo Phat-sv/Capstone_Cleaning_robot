@@ -20,8 +20,8 @@ To achieve this, we researched and implemented various robotics and AI technique
   * Hiwonder bus servo (1 HX-06L, 1 LX-225, 2 LX-15D and 1 MG90S) for robot arm and gripper
   * Raspberry pi 5: running ROS2, EKF, processing image, and communicating with STM32 microcontrollers
   * 1 STM32F103C8T6 bluepill: control DC servo motors and send data via UART for Raspberry to calculate odometry. [Code here](https://github.com/Phat-sv/DC_servo_motor_STM32)
-  * 1 STM32F103C8T6 bluepill: read data from VL53L1X sensor on mobile platform (identify distance to object), IMU BNO055 and send to Raspberry via UART
-  * 1 STM32L432KCU6 (nucleo): read data from VL53L1X sensor mounted on gripper and calculate object coordinates. Moving to object and pick up, after that, sending result to Raspberry
+  * 1 STM32F103C8T6 bluepill: read data from VL53L1X sensor on mobile platform (identify distance to object), IMU BNO055 and send to Raspberry via UART [Code here](https://github.com/Phat-sv/VL53L1X_and_BNO055_STM32)
+  * 1 STM32L432KCU6 (nucleo): read data from VL53L1X sensor mounted on gripper and calculate object coordinates. Moving to object and pick up, after that, sending result to Raspberry [Code here](https://github.com/Phat-sv/4_DOF_Robot_Arm_STM32)
   * AI Hailo-8L: running yolo-v11
   * Lidar A1M8: mapping and navigate
   * IMU BNO055: read yaw angle

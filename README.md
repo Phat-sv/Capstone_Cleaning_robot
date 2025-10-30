@@ -4,6 +4,7 @@
 ## Tables of content
 - [Technologies](#technologies)
 - [Features](#features)
+- [Demo](#demo)
 - [Developers](#developers)
 
 ### Technologies
@@ -35,6 +36,9 @@ To achieve this, we researched and implemented various robotics and AI technique
 * PI-based velocity controller for wheel motion
 * State estimation using Extended Kalman Filter (EKF)
 * Fully integrated in ROS 2 (Humble)
+
+### Demo
+* Yolo-v11: [video](https://youtu.be/JAwOVxa2ZUE)
 
 ### Developers
 1. [Nguyen Tan Phat](https://github.com/Phat-sv)

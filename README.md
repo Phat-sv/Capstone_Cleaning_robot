@@ -40,10 +40,11 @@ To achieve this, we researched and implemented various robotics and AI technique
 ### Demo
 * Yolo-v11: [video](https://youtu.be/JAwOVxa2ZUE)
 * Object detection and gripping: [video](https://youtube.com/shorts/5fRmE0WF7jY)
-* Zig zag trajectory: [video](https://youtu.be/SWXLe86SoOQ)
+* Zig zag trajectory: [video](https://youtu.be/SWXLe86SoOQ), [picture](https://github.com/Phat-sv/Capstone_Cleaning_robot/blob/main/images/Zig-zag%20result.png)
 * Matlab simulation for robot arm: [video](https://youtu.be/U4f-FVTDqog)
 * Gripping and navigation: [video](https://youtu.be/RqK6kfQlSYY)
 * EKF odom vs raw odom: [picture](https://github.com/Phat-sv/Capstone_Cleaning_robot/blob/main/images/EKF%20odom.png)
+* Velocity response (PI algorithm): [picture](https://github.com/Phat-sv/Capstone_Cleaning_robot/blob/main/images/PID%20response.png)
   
 ### Developers
 1. [Nguyen Tan Phat](https://github.com/Phat-sv)

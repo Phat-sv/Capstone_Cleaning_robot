@@ -39,7 +39,9 @@ To achieve this, we researched and implemented various robotics and AI technique
 
 ### Demo
 * Yolo-v11: [video](https://youtu.be/JAwOVxa2ZUE)
-
+* Object detection and gripping: [video](https://youtube.com/shorts/5fRmE0WF7jY)
+* Zig zag trajectory: [video](https://youtu.be/SWXLe86SoOQ)
+  
 ### Developers
 1. [Nguyen Tan Phat](https://github.com/Phat-sv)
 2. [Phung Hieu Cuong](https://github.com/phcfg12)

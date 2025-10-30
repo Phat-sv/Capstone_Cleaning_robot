@@ -43,6 +43,7 @@ To achieve this, we researched and implemented various robotics and AI technique
 * Zig zag trajectory: [video](https://youtu.be/SWXLe86SoOQ)
 * Matlab simulation for robot arm: [video](https://youtu.be/U4f-FVTDqog)
 * Gripping and navigation: [video](https://youtu.be/RqK6kfQlSYY)
+* EKF odom vs raw odom: [picture](https://github.com/Phat-sv/Capstone_Cleaning_robot/blob/main/images/EKF%20odom.png)
   
 ### Developers
 1. [Nguyen Tan Phat](https://github.com/Phat-sv)
